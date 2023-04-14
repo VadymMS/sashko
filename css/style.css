@@ -1,39 +1,39 @@
 body {
- background-color: dimgray;
+  background-color: rgb(223, 18, 233);
 }
 
 .container,
 .text-container {
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
 }
 
 .text-container span {
- font-size: 54px;
- font-weight: bold;
+  font-size: 54px;
+  font-weight: bold;
 }
 
 .buttons-container {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .button {
- width: 100px;
- height: 50px;
- border-radius: 5px;
- font-size: 24px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 24px;
 }
 
 .button-green {
- background-color: lawngreen;
+  background-color: lawngreen;
 }
 
 .button-red {
- background-color: red;
+  background-color: red;
 }
 
 .button-bisque {
- background-color: bisque;
+  background-color: bisque;
 }
