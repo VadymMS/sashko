@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+
+  /*font: 600 16px "Roboto", sans-serif;*/
+
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+
+.avatar {
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px rgb(0, 0, 0, 0, 020);
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.container {
+  width: 100%;
+}
+
+.social {
+  background: green;
+}
