@@ -8,81 +8,90 @@
   <body>
     <div class="container">
       <div class="info">
-        <td><h1>Free Energy</h1></td>
-
         <img
         src=https://www.calc.ru/imgs/articles3/11/49/03096557a2501c5787b9.70950966.jpg
         class="avatar" />
+      </div>
+      <div class="info-text">
+        <td><h1>Free Energy</h1></td>
+
         <p><strong>Электро генератор</strong></p>
+
+        <td><h1>Free Energy</h1></td>
+
+        <hr size="5" noshade color="blue" />
+        <p>This is HTML</p>
+        <h4>Телеграм канал</h4>
+
+        <a href="https://t.me/stuttgartshare" target="blank">Telegram</a>
       </div>
 
-      <td><h1>Free Energy</h1></td>
-
-      <hr size="5" noshade color="blue" />
-      <p>This is HTML</p>
       <!-- <br /> -->
-      <p><strong>Мои хобби</strong></p>
-      <ol type="I">
-        <li>музыка</li>
-        <li>танцы</li>
-        <li>проэктировка</li>
-      </ol>
-      <hr size="5" noshade color="red" />
-      <h2>Опыт работы</h2>
-      <table>
-        <tr>
-          <th>Фирма</th>
-          <th>Должность</th>
-          <th>год</th>
-        </tr>
-        <tr>
-          <td>Техно Холод</td>
-          <td>Снабжениц</td>
-          <td>2009-2017</td>
-        </tr>
-        <tr>
-          <td>Global-Teknologii</td>
-          <td>Менеджер</td>
-          <td>2017-2019</td>
-        </tr>
-      </table>
+      <div class="card bg-yellow">
+        <p><strong>Мои хобби</strong></p>
+        <ol class="list" type="I">
+          <li>музыка</li>
+          <li>танцы</li>
+          <li>проэктировка</li>
+        </ol>
+      </div>
+      <div class="card bg-greenyellow">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>LPTacker</td>
+            <td>Frontend</td>
+            <td>2009-2017</td>
+          </tr>
+          <tr>
+            <td>Global-Teknologii</td>
+            <td>Менеджер</td>
+            <td>2017-2019</td>
+          </tr>
+        </table>
+      </div>
 
-      <hr size="5" noshade color="red" />
-
-      <div class="social">
-        <h2>Телеграм канал</h2>
-        <ul type="disc">
+      <div class="card bg-burlywood">
+        <h2>Видио ролик</h2>
+        <ul class="link-list">
           <li>
-            <a href="https://t.me/stuttgartshare" target="blank">Telegram</a>
+            <a href="https://www.youtube.com/watch?v=nnAE0hqgH6Y"
+              >Генератор свободной энергии 1</a
+            >
           </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=nnAE0hqgH6Y"
+              >Генератор свободной энергии 2
+            </a>
+          </li>
+          <li><a href="index.html">на главную</a></li>
         </ul>
       </div>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="введите имя..." />
+            </div>
+          </div>
 
-      <hr size="5" noshade color="red" />
+          <label for="email">Ваша email:</label>
+          <input type="email" id="email" placeholder="введите email..." />
+          <div class="form-group">
+            <label for="text">Ваша сообщение:</label>
 
-      <h2>Видио ролик</h2>
-      <a href="youtube.html">video</a>
-      <hr size="5" noshade color="red" />
-      <h2>Связаться со мной</h2>
-      <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="введите имя..." />
+            <textarea id="text" rows="2" cols="20"></textarea>
+          </div>
 
-        <br />
-
-        <label for="email">Ваша email:</label>
-        <input type="email" id="email" placeholder="введите email..." />
-
-        <br />
-
-        <label for="text">Ваша сообщение:</label>
-        <br />
-        <textarea id="text" rows="2" cols="20"></textarea>
-
-        <br />
-
-        <input type="submit" value="Связаться" />
-      </form>
+          <input class="btn" type="submit" value="Связаться" />
+        </form>
+      </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
     </div>
+    <div style="margin-bottom: 500px"></div>
   </body>
 </html>
